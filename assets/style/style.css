@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+
+	background-color: rgba(51, 51, 51, 0.9);
+      }
+
+#home {
+
+  background-image: url("/assets/image/background.jpg");
+ 	background-size: cover;
+ 	background-repeat:no-repeat;
+ 	background-position: center;
+ 	background-attachment: fixed;
+	height: 100vh;
+
+}
+#sound {
+
+  background-image: url("/assets/image/background3.jpg");
+ 	background-size: cover;
+ 	background-repeat:no-repeat;
+ 	background-position: center;
+ 	background-attachment: fixed;
+	height: 100vh;
+}
+#cv1 {
+
+  background-image: url("/assets/image/background2.jpg");
+ 	background-size: cover;
+ 	background-repeat:no-repeat;
+ 	background-position: center;
+
+	height: 100vh;
+}
+
+#cv2{
+background-image: url("/assets/image/background5.jpg");
+background-size: cover;
+background-repeat:no-repeat;
+background-position: center;
+
+height: 100vh;
+}
+
+#aboutme {
+
+  background-image: url("/assets/image/background4.jpg");
+ 	background-size: cover;
+ 	background-repeat:no-repeat;
+ 	background-position: center;
+ 	background-attachment: fixed;
+	height: 100vh;
+}
+
+
+
+
+nav {
+    list-style-type: none;	overflow: hidden;
+		background-color: rgba(51, 51, 51, 0.90);
+		position: -webkit-sticky; /* Safari */
+    position: sticky;
+		margin-bottom: -67px;
+    top: 0;
+    z-index: 1;
+    }
+
+
+nav a {
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 12px;
+
+    text-decoration: none;
+    font-family: coolvetica;
+
+
+
+  }
+nav a:hover {
+		display: inline-block;
+  color: red;
+			border-bottom: 2px red solid;
+		padding-bottom: 10px;
+
+
+
+
+}
+
+  @font-face {
+      font-family: 'quantify';
+      src: url(../fonts/quantify.ttf);
+  }
+  @font-face {
+      font-family: 'coolvetica';
+      src: url(../fonts/coolvetica.ttf);
+  }
+
+
+.middle-logo {
+	  font-family: quantify;
+	position:absolute;
+	top:60%;left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%)
+}
+}
+#home .titre{
+   height: 100vh;
+
+
+}
+.middle-logo h1 {
+	  font-size: 60px;
+  letter-spacing: 4px;
+  word-spacing: 6px;
+	font-weight: bold;
+
+
+}
+.middle-logo h2{
+	text-align: center;
+}
+
+
+.ligne-noire{
+margin:auto;
+width:70%;
+border-color:red!important;
+}
+.icon {
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+padding-top: 35px;
+	padding-bottom: 20px;
+
+	text-align: center;
+
+
+
+}
+
+.icon img{
+      max-width: 60px;
+  max-height: 60px;
+-moz-transition: opacity 0.9s;
+-webkit-transition: opacity 0.9s;
+-o-transition: opacity 0.9s;
+}
+.icon img:hover{
+opacity:0.5;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
+
+#sound h1 {
+	text-align: center;
+	font-family: quantify;
+	color: white;
+		position:absolute;
+		font-size: 250%;
+	top:130%;left:50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	background-color: rgba(0, 0, 0, 0.83);
+	padding: 15px;
+	padding-left: 300px;
+	padding-right: 300px;
+	width: 70vh;
+}
+
+  #sound p {
+
+    text-align: left;
+  	font-family: coolvetica;
+  	color: white;
+  		font-size: 180%;
+          padding-left: 70px;
+          padding-right: 70px;
+  align-item: center;
+  margin: 0;
+  top:40%;
+  position: relative;
+
+}
+
+#sound img {
+			position:absolute;
+	top:195%;left:58%;
+  max-width:  70px;
+	max-height: 70px;
+opacity:0.8;
+-moz-transition: opacity 0.9s;
+-webkit-transition: opacity 0.9s;
+-o-transition: opacity 0.9s;
+
+}
+
+#sound img:hover{
+opacity: 1;
+max-width:  75px;
+	max-height: 75px;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
+
+
+.logo {
+  max-height: 25px;
+  max-width: 25px;
+
+}
+
+
+
+/* Style the header */
+.header {
+  font-family: 'coolvetica';
+  color: white;
+  background-image: url("/assets/image/cvphoto.png");
+  background-repeat: no-repeat;;
+  padding: 40px;
+  text-align: left;
+  font-size: 35px;
+  background-position: left;
+  margin-left: 14%;
+}
+
+.header h2{
+
+  margin-left: 15%;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  font-family: 'coolvetica';
+  color: white;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   font-size: 25px;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+/* Style the footer */
+.footer {
+  font-family: 'coolvetica';
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
